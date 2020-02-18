@@ -1,0 +1,49 @@
+span {
+    font-weight: 700;
+    background: lightgray;
+    user-select: none;
+    padding: 0.3em .8em;
+    cursor: pointer;
+}
+
+.play-container {
+    padding: 3em;
+    border:1px solid lightgray;
+    margin-bottom: 1em;
+    cursor: hidden;
+    input {
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+}
+
+.active {
+    background-color: #127;
+    color: ghostwhite;
+}
+.notactive {
+    background-color: rgb(36, 36, 36);
+    color: rgb(43, 248, 238);
+}
+.hidden {
+    color: rgba(248, 248, 255, 0);
+    opacity: 100%;
+    user-select: none;
+    background-image: url('./winner-man-1513508588Btk-removebg-preview.png'), url('./winner-man-1513508588Btk-removebg-preview-flipped-removebg-preview.png'), url('https://live.staticflickr.com/1506/24399270539_a32fbbfa55.jpg');
+    background-size: contain, contain, cover;
+    background-repeat: no-repeat;
+    background-position: left, right, center;
+}
+/* .hidden:before {
+    color: rgba(248, 248, 255, 0);
+    opacity: 100%;
+    user-select: none;
+    background-image: url(https://live.staticflickr.com/1506/24399270539_a32fbbfa55.jpg);
+    background-repeat: repeat;
+    background-position: left;
+} */
+
+.play-container-hidden {
+    padding: 8em 5em;
+    margin-bottom: 2%;
+}
